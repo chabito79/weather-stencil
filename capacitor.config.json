@@ -1,0 +1,8 @@
+{
+  "appId": "com.joshmorony.weather",
+  "appName": "ionic-weather",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

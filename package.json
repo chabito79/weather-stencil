@@ -1,0 +1,27 @@
+{
+  "name": "ionic-weather",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-weather",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@capacitor/android": "^1.5.0",
+    "@capacitor/cli": "^1.5.0",
+    "@capacitor/core": "^1.5.0",
+    "@capacitor/ios": "^1.5.0",
+    "@ionic/core": "^5.0.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.8.4"
+  }
+}
