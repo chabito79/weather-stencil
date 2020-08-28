@@ -1,6 +1,8 @@
 {
   "name": "Weather Stencil",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "custom",
   "id": "73fa81fc"
 }
